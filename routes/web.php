@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\MainPage;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/exampMobileF', function () {
+    return view('category3');
 });
+Route::get('/', MainPage::class);

@@ -1,0 +1,74 @@
+cd .\ProgramingCourse\
+ls
+laravel new mobileFirst
+composer require livewire/livewire
+s
+cd .\mobileFirst\
+composer require livewire/livewire
+git init
+gh repo create practicRestaurant --public --source=. --default-branch=main
+gh repo create mobileFirst --public --source=. --default-branch=main
+gh repo create mobileFirst --public --source=.
+git branch -M main
+git add .
+git commit -m "PlatzyCurso de Responsive Design-Maquetacion Mobile First"
+git push -u origin main
+code .
+npm run dev
+php artisan serve
+npm run dev
+npm install --save-dev vite  #para que pueda usar npm run dev
+npm run dev
+php artisan serve
+
+
+//styleName: H2 Mobile;
+font-family: DM Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+
+*****************----->   Como agregar funtes que vamos a utilizar
+
+         <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>{{ $title ?? 'Page Title' }}</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+
+npm install --save-dev vite  #para que pueda usar npm run dev
+php artisan livewire:layout
+
+Agregando estilos:
+
+Posicionamiento --> static, absolute, relative, fixed
+Modelo de caja (Box model) --> margin, border, padding, content
+Tipografía --> tipos, tamaños de fuente, etc
+Estilos visuales --> box-shadow, border-radius, gradient, etc
+Otros --> reglas CSS y más
+
+Colores:
+
+--bitcoin-orange: #f7931a;
+--soft-orange: #ffe9d5;
+--secondary-blue: #1a9af7;
+--soft-blue: #e7f5ff;
+--warm-black: #282623;
+--black: #201e1c;
+--grey: #bababa;
+--off-white: #faf8f7;
+--just-white: #fff;
+
+Fuente:
+
+  font-size: 62.5%;
+  font-f
