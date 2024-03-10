@@ -1,0 +1,17 @@
+/* .main-tables-container {
+    display: flex;
+    width: 930px;
+    margin: 0 auto;
+} */
+
+/*Las medias Query se aplican en archivos separados para
+que el usuario no descargue todos los archivos*/
+.main-product-detail {
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+.plans-container--slider {
+    justify-content: center;
+}

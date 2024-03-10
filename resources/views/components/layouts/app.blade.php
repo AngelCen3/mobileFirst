@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>{{ $title ?? 'Page Title' }}</title>
-        <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/styles.css') }}" rel="stylesheet"/>
+        <link href="{{ asset('css/tablet.css') }}" rel="stylesheet" media="(min-width: 930px)"/>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
